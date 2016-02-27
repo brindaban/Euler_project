@@ -3,7 +3,7 @@ myData = "7316717653133062491922511967442657474235534919493496983520312774506326
 def getFinalResult(data):
     result = 0
     pointer = 0
-    while pointer<len(data):
+    while pointer<len(data)-13:
         currentIndex = pointer
         currentResult = 1
         while currentIndex<pointer+13:
@@ -15,6 +15,7 @@ def getFinalResult(data):
         if currentResult>result:
             result = currentResult
         pointer = pointer+1
+
     return result
 
 print getFinalResult(myData)
