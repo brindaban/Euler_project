@@ -20,7 +20,7 @@ def findResult(necessaryFactor):
     while count<necessaryFactor:
         number = number + toincrement
         toincrement = toincrement + 1
-        # print getAllFactors(number)
+        print getAllFactors(number)
         count = len(getAllFactors(number))+2
     return number
 
