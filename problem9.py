@@ -12,6 +12,7 @@ def getAllFactors(number):
         count = count - 1
     return storage
 
+
 def isAdjancyMultiply(number):
     firstNumber = round(number ** 0.5)
     return number == firstNumber * (firstNumber+1)
@@ -37,6 +38,7 @@ def getThreeTriplet(number):
     b = (((number-a) ** 2) - (a ** 2))/(2*(number-a))
     c = number-a-b
     return [a,b,c]
+
 
 def getThreeMultiply(numbers):
     return numbers[0]*numbers[1]*numbers[2]
