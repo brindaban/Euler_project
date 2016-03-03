@@ -10,4 +10,4 @@ def factorial(number):
 def getNumberOfPath(row,column):
     return factorial(row+column)/(factorial(row) * factorial(column))
 
-print getNumberOfPath(200000,200000)
+print getNumberOfPath(20,20)
